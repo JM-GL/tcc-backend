@@ -3,6 +3,8 @@ const routes = express.Router()
 
 const UserController = require('./controllers/UserController')
 const ProjectController = require('./controllers/ProjectController')
+const ItemController = require('./controllers/ItemController')
+const MesaController = require('./controllers/MesaController')
 
 routes
     // Users
@@ -13,6 +15,8 @@ routes
     // Projects
     .get('/projects', ProjectController.index)
     .post('/projects', ProjectController.create)
+    // Items
+    .get('/item', ItemController.index)
 
 
 module.exports = routes

@@ -41,6 +41,7 @@ Vamos criar uma API que irá ter CRUD de usuários e projetos desses usuários.
 - PostgreSQL
 - VSCode
 - Insomnia ou Postman
+- agora é nosso
 
 - [x]  Revisar um pouco de SQL
 - [x]  Create Table
